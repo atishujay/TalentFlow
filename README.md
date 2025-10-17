@@ -7,3 +7,35 @@ In this HR team can manage following tasks:
    
 To intall node modules folder run "npm install" in the terminal and then run "npm run dev" in the terminal.
 The local host link should look like this- http://localhost:5174/
+
+
+Architecture:
+Directory structure:
+└── atishujay-talentflow/
+    ├── README.md
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── postcss.config.js
+    ├── tailwind.config.js
+    ├── tsconfig.app.json
+    ├── tsconfig.json
+    ├── tsconfig.node.json
+    ├── vite.config.ts
+    └── src/
+        ├── App.tsx
+        ├── index.css
+        ├── main.tsx
+        ├── components/
+        │   ├── AssessmentModal.tsx
+        │   ├── CandidateCard.tsx
+        │   ├── CandidateModal.tsx
+        │   ├── JobModal.tsx
+        │   └── Navbar.tsx
+        ├── pages/
+        │   ├── Assessments.tsx
+        │   ├── Candidates.tsx
+        │   ├── Jobs.tsx
+        │   └── Landing.tsx
+        └── server/
+            └── mirage.ts
