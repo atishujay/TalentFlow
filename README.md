@@ -7,7 +7,7 @@ In this HR team can manage following tasks:
    
 SETUP - To intall node modules folder run "npm install" in the terminal and then run "npm run dev" in the terminal or you can simply click the link below.
 
-I have deployed the project on vercel and the host link for the project is- talent-flow-ha82damqa-atishujays-projects.vercel.app
+I have deployed the project on vercel and the host link for the project is- https://vercel.com/atishujays-projects/talent-flow . 
 
 
 Architecture:
